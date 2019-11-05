@@ -1,0 +1,155 @@
+/*--Fonts--*/
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700|Roboto:400,500,700&display=swap');
+
+body{
+ font-family: 'Roboto', sans-serif;
+ font-size: 15px;
+ font-weight: normal;
+ color:  #585858;
+
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	margin: 0;
+}
+
+div{
+	display: block;
+}
+
+a{
+	text-decoration: none;
+}
+
+p{
+	margin: 0;
+}
+
+
+
+
+
+
+
+/*---------------------Header----------------------*/
+.container{
+	width: 1140px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.row{
+	margin-left: -15px;
+	margin-right: -15px;
+}
+.top-area {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	overflow: hidden;
+}
+.logo-nav-wapper {
+	overflow: auto;
+	display: flex;
+	align-items: center;
+}
+.logo,
+.main-nav{
+	width: 50%;
+	float: left;
+}
+.main-nav ul li{
+	display: inline-block;
+
+}
+.main-nav ul li a{
+
+	color: #111;
+	padding: 8px 15px;
+	font-size: 18px;
+	text-transform: uppercase;
+	border: 2px solid transparent;
+}
+
+.main-nav ul li a:hover{
+	color: #f13a3a;
+	border: 2px solid #ff0000;
+}
+
+
+
+
+/*----Hero-Section----*/
+.hero-section {
+	background-image: url('../images/slider-img.jpg');
+	background-size: cover;
+}
+
+.hero-heading{
+	padding:20% 0;	
+}
+
+.hero-heading h2 {
+	font-size: 50px;
+	color: white;
+	line-height: 55px;
+}
+
+
+/*-----services-----*/
+.services{
+	overflow: hidden;
+	padding-top: 115px;
+	padding-bottom: 110px;
+}
+
+.service-item {
+	width: 22.33%;
+	float: left;
+	margin: 0px 15px;
+	text-align: center;
+}
+
+.s-icon{
+ margin-bottom: 35px;
+}
+
+.service-item h3{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+
+.company-overview {
+	padding-top: 80px;
+	padding-bottom: 90px;
+	color: #e7edeb;
+	text-align: center;
+	overflow: hidden;
+}
+.company-overview h2{
+	font-size: 40px;
+	margin-bottom: 35px;
+}
+.company-overview p{
+	font-size: 18px;
+	width: 70%;
+	margin: 0 auto;
+	line-height: 28px;
+}
+.company-overview h5{
+	font-size: 22px;
+	margin: 25px 0;
+	color: #585858;
+}
+.view-more-btn{
+	padding: 15px 35px;
+	background-color: #ed2525;
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
+	display: inline-block;
+
+}
