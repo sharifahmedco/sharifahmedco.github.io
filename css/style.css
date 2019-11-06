@@ -20,6 +20,7 @@ div{
 
 a{
 	text-decoration: none;
+
 }
 
 p{
@@ -27,8 +28,10 @@ p{
 }
 
 
-
-
+img{
+	max-width: 100%;
+	display: block;
+}
 
 
 
@@ -116,20 +119,25 @@ p{
  margin-bottom: 35px;
 }
 
+.s-icon img{
+	margin-left: auto;
+	margin-right: auto;
+}
 .service-item h3{
 	font-size: 30px;
 	margin-bottom: 20px;
 }
 
-
+/*-----ompany-overview-----*/
 .company-overview {
 	padding-top: 80px;
 	padding-bottom: 90px;
-	color: #e7edeb;
+	background:  #e7edeb;
 	text-align: center;
 	overflow: hidden;
 }
-.company-overview h2{
+.company-overview h2,
+.feautare-work h2{
 	font-size: 40px;
 	margin-bottom: 35px;
 }
@@ -152,4 +160,79 @@ p{
 	text-transform: uppercase;
 	display: inline-block;
 
+}
+
+
+/*-----feautare-work-----*/
+.feautare-work {
+	padding: 105px 0px;
+	overflow: hidden;
+}
+.feautare-work h2 { 
+	text-align: center ;
+ }
+
+
+.feautare-work p {
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+
+.cat-links {
+	margin: 75px 0;
+}
+
+.cat-links ul{
+	text-align: center;
+}
+
+.cat-links ul li {
+	list-style: none;
+	display: inline;
+	margin: 0 15px;
+}
+.cat-links ul li a {
+	font-size: 18px;
+	color: #111111;
+	font-weight: 600;
+	padding: 10px 35px;
+	text-transform: uppercase;
+}
+.cat-links ul li a:hover{
+	color: white;
+	background-color:  #ff0000;
+	transition: all 0.5s;
+}
+
+
+.feautare-work-item{
+
+}
+
+.work-item {
+	width: 25%;
+	float: left;
+	overflow: hidden;
+}
+
+/*----about-us---*/
+
+.about-us{}
+.about-us .container{  }
+.about-us-left{
+
+	width: 40%;
+	margin: 0 auto;
+	float: left;
+}
+
+.about-us-left h2{}
+.about-us-left p{}
+
+.about-us-right {
+	width: 50%;
+	float: left;
 }
