@@ -12,6 +12,7 @@ h1,h2,h3,h4,h5,h6{
 	font-family: 'Raleway', sans-serif;
 	font-weight: 500;
 	margin: 0;
+	color: #111111;
 }
 
 div{
@@ -137,9 +138,11 @@ img{
 	overflow: hidden;
 }
 .company-overview h2,
-.feautare-work h2{
+.feautare-work h2 ,
+.about-us-left h2 {
 	font-size: 40px;
 	margin-bottom: 35px;
+	
 }
 .company-overview p{
 	font-size: 18px;
@@ -222,16 +225,25 @@ img{
 
 .about-us{}
 .about-us .container{  }
-.about-us-left{
-
-	width: 40%;
+.about-us-left {
+	width: 50%;
 	margin: 0 auto;
 	float: left;
+	padding: 70px 0px;
 }
+.about-us-left h2 {
 
-.about-us-left h2{}
-.about-us-left p{}
+}
+.about-us-left p {
+	font-size: 16px;
+	margin: 0 auto;
+	line-height: 28px;
+	text-align: justify;
 
+}
+.about-us-left .read_more {
+
+}
 .about-us-right {
 	width: 50%;
 	float: left;
